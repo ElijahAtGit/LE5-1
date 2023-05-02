@@ -33,7 +33,7 @@ export class RegisterPageComponent implements OnInit {
       responseType: 'text'
     }).subscribe(data => {
       this.route.navigate(['/login'])
-      //window.location.reload();
+      window.location.reload();
     })
   }
 
